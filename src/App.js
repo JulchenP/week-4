@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-export default function Search(props) {
+export default function Search() {
   let [temperature, setTemperature] = useState(null);
   let [description, setDescription] = useState("");
   let [humidity, setHumidity] = useState(null);
@@ -41,7 +41,7 @@ export default function Search(props) {
       <div className="Search">
         {form}
         <br></br>
-        <img src={icon} />
+        <img src={icon} alt="Weather Icon"/>
         <br></br>
         {city}
         <ul>
