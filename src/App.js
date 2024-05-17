@@ -50,6 +50,7 @@ export default function Search() {
           <li>Humidity: {humidity} %</li>
           <li>Wind: {windSpeed} km/h</li>
         </ul>
+        <p>open-source code on <a href="https://github.com/JulchenP/week-4">GitHub</a> by Julia Poeppelmann</p>
       </div>
     );
   } else {
