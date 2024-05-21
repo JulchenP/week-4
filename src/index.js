@@ -10,5 +10,7 @@ root.render(
   <StrictMode class="App">
     <h1>Weather App</h1>
     <App />
+            <p>open-source code on <a href="https://github.com/JulchenP/week-4">GitHub</a> by Julia Poeppelmann</p>
+
   </StrictMode>
 );
